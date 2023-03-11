@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calc">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="1" left="2" bottom="1" right="2"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="73008" class="javax.swing.JTextField" binding="textField">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+        </properties>
+      </component>
+      <component id="8256d" class="javax.swing.JLabel" binding="label">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="6" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value=" "/>
+        </properties>
+      </component>
+      <component id="cb664" class="javax.swing.JButton" binding="buttonBackspace">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="&lt;-"/>
+        </properties>
+      </component>
+      <component id="d56c3" class="javax.swing.JButton" binding="buttonDivide">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="f9fb6" class="javax.swing.JButton" binding="buttonClear">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="b71a5" class="javax.swing.JButton" binding="buttonMultiply">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="5f37d" class="javax.swing.JButton" binding="buttonMinus">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="4f9a9" class="javax.swing.JButton" binding="buttonPlus">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="9091c" class="javax.swing.JButton" binding="buttonEquals">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="88267" class="javax.swing.JButton" binding="button7">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="a67fe" class="javax.swing.JButton" binding="button8">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="139e8" class="javax.swing.JButton" binding="button9">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="90da5" class="javax.swing.JButton" binding="button4">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="2340" class="javax.swing.JButton" binding="button5">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="b206c" class="javax.swing.JButton" binding="button6">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="80e37" class="javax.swing.JButton" binding="button1">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="4f48b" class="javax.swing.JButton" binding="button2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="e61ed" class="javax.swing.JButton" binding="button3">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="4f606" class="javax.swing.JButton" binding="buttonPoint">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="80463" class="javax.swing.JButton" binding="button0">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Waree" size="14"/>
+          <text value="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
